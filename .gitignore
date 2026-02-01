@@ -1,0 +1,19 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace
+/go.work
+/go.work.sum
+
+# Dependency cache (optional but common)
+vendor/
+
+# Editor/OS noise
+.DS_Store
+Thumbs.db
